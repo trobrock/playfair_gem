@@ -1,6 +1,8 @@
 # Playfair
 
-TODO: Write a gem description
+[![Build Status](https://travis-ci.org/trobrock/playfair_gem.png?branch=master)](https://travis-ci.org/trobrock/playfair_gem)
+
+The official playfair api gem.
 
 ## Installation
 
