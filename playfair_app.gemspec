@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'playfair/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "playfair"
+  spec.name          = "playfair_app"
   spec.version       = Playfair::VERSION
   spec.authors       = ["Trae Robrock"]
   spec.email         = ["trobrock@gmail.com"]
