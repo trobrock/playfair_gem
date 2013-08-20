@@ -20,7 +20,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Create a new Statsd/Graphite instance
+
+```ruby
+u = Playfair::User.me
+u.instances.create
+```
 
 ## Contributing
 
