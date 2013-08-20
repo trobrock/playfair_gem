@@ -15,4 +15,12 @@ describe Playfair::Client do
     subject.api.should be_a(Her::API)
     subject.api.base_uri.should == "https://playfairapp.com"
   end
+
+  it 'should have a configurable endpoint' do
+    subject.configure do |c|
+      c.endpoint = "https://example.com"
+    end
+
+    subject.api.base_uri.should == "https://example.com"
+  end
 end
