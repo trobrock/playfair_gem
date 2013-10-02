@@ -1,6 +1,7 @@
 # Playfair
 
 [![Build Status](https://travis-ci.org/trobrock/playfair_gem.png?branch=master)](https://travis-ci.org/trobrock/playfair_gem)
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/trobrock/playfair_gem/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
 The official playfair api gem.
 
