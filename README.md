@@ -24,6 +24,11 @@ Or install it yourself as:
 Create a new Statsd/Graphite instance
 
 ```ruby
+Playfair.client.configure do |c|
+  c.email = "bob@example.com"
+  c.password = "supersecret"
+end
+
 u = Playfair::User.me
 u.instances.create
 ```
